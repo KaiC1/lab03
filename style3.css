@@ -1,0 +1,48 @@
+.Container{  
+    display: flex;
+    flex-direction: row;
+}
+ 
+.item {
+    flex: 1;
+    padding: 20px;
+    margin: 5px;
+    background-color: lightblue;
+    border: 1px solid darkblue;
+    text-align: center;
+}
+.item img {
+    width: 100px;
+    height: 75px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.navbar {
+    padding: 30px;
+    display: flex;
+    background-color: #333;
+    color: white;
+}
+.nav-item{
+    margin: 0px 10px;
+    font-size: 20px;
+}
+.nav-item a {
+    color: white;
+    text-decoration-line: none;
+    padding: 12px;
+    border-radius: 5px;
+}
+.nav-item a:hover {
+    background-color: #bdbbbb;
+}
+.dropdown {
+    display: none;
+    margin-top:15px;
+    width:70%;
+    padding:10px;
+    font-size: 20px;
+}
+#schulich-item:hover .dropdown {
+    display:block;
+}
